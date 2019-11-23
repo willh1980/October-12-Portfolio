@@ -1,0 +1,254 @@
+
+#headerrow { 
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+#namebox{
+    border: white;
+    background-color: #4aaaa5;
+}
+
+
+
+#name
+ {   
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Georgia' Times, Times New Roman, serif;
+    text-align: center;
+    line-height: 70px;
+ }
+
+#links {
+    font-size: 18px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: right;
+    position: relative;
+}
+
+#links a {
+    color: rgb(129, 125, 118);
+    text-decoration: none;
+    line-height: 100px;
+}
+
+#links a:hover {
+    color: red;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+#links a:active {
+    color: blue;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+#background {
+    background-image: url(../images/stoneybackground.jpg);
+    background-size: cover;
+    border-top: 4px solid #dddddd;
+    width: 100%;
+    height: 900px;
+    position: absolute;
+    align-content: center;
+    
+}
+
+#content {
+    background-image: url(../images/techbackground.jpg);
+    background-size: cover;
+    border: 3px solid #dddddd;
+    position: relative;
+    top: 40px;
+    height: 800px;
+}
+
+#content h2{
+    font-family: 'Georgia' Times, Times New Roman, serif;
+    font-weight: bold;
+    font-size: 32px;
+    color: #4aaaa5;
+    margin-left: 3%;
+}
+
+#line {
+    border-bottom: 3px solid #cccc;
+    height: 1px;
+    width: 1050px;
+    position: relative;
+    margin-left: 3%;
+    margin-right: 25px;
+}   
+
+img {
+    float: left;
+    margin-right: 60px;
+    margin-bottom: 16px;
+    position: relative;
+    left: 3%;
+}
+
+#biography {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    font-size: 26px;
+    line-height: 52px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    position: relative;
+    left: 3%;
+}
+
+#block1 {
+    background-image: url(../images/western.jpg);
+    background-size: cover;
+    border: #666666;
+    text-align: center;
+}
+#block2 {
+    background-image: url(../images/starwars.jpg);
+    background-size: cover;
+    border: #666666;
+    text-align: center;
+}
+
+#block3 {
+    background-image: url(../images/sports.jpeg);
+    background-size: cover;
+    border: #666666;
+    text-align: center;
+}
+
+#block4 {
+    background-image: url(../images/giphy.png);
+    background-size: cover;
+    border: #666666;
+    text-align: center;
+}
+
+#block5 {
+    background-image: url(../images/click.gif);
+    background-size: cover;
+    border: #666666;
+    text-align: center;
+}
+
+#block6 {
+    background-image: url(../images/friends.jpg);
+    background-size: cover;
+    border: #666666;
+    text-align: center;
+}
+
+
+h3 {
+    color: #cccc;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+}
+
+#footer {
+    width: 100%;
+    height: 70px;
+    background-color: #666666;
+    position: absolute;
+   top: 970px;
+}
+
+#footer-trim {
+    width: 100%;
+    height: 8px;
+    background-color: #4aaaa5;
+    position: relative;
+    top: 0%;
+}
+
+#copyright {
+    color: #cccccc;
+    text-align: center;
+    position: relative;
+    bottom: 0%;
+    transform: translateY(+100%)
+}
+#firstrow {
+    margin-left: 3%;
+    height: 100px;
+    margin-right: 9%;
+}
+
+#firstsub {
+    margin-left: 3%;
+    padding-bottom: 50px;
+    height: 100px;
+    margin-right: 9%;
+}
+
+#secondrow {
+    margin-left: 3%;
+    height: 100px;
+    margin-right: 9%;
+}
+
+#secondsub {
+    margin-left: 3%;
+    padding-bottom: 50px;
+    height: 100px;
+    margin-right: 9%;
+}
+
+#thirdrow {
+    margin-left: 3%;
+    height: 100px;
+    margin-right: 9%;
+}
+
+#thirdsub {
+    margin-left: 3%;
+    height: 100px;
+    margin-right: 9%;
+}
+
+#title1 {
+    background-color: #4aaaa5;
+   
+}
+
+#title2 {
+    background-color: #4aaaa5;
+    text-align: center;
+}
+
+#title3 {
+    background-color: #4aaaa5;
+    text-align: center;
+}
+
+#title4 {
+    background-color: #4aaaa5;
+    text-align: center;
+}
+
+#title5 {
+    background-color: #4aaaa5;
+    text-align: center;
+}
+
+#title6 {
+    background-color: #4aaaa5;
+    text-align: center;
+}
+
+
+
+
